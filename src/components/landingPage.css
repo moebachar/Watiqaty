@@ -1,0 +1,116 @@
+.landing-page {
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  gap: 20px;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 80%;
+}
+
+.logo-image {
+  width: 100px;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10%;
+  margin-top: -50px;
+}
+
+.sec2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.sec2-image {
+  width: 40%;
+}
+
+.morocco {
+  margin-bottom: -3%;
+}
+
+.sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10%;
+  margin-top: -50px;
+  background-color: #222222;
+  height: 100px;
+}
+
+.sec3-image {
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  animation: slide 100s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.sec4 {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #313131;
+  color: white;
+  height: 300px;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+}
