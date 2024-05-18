@@ -1,0 +1,10 @@
+langchain-core
+langchain-community
+langchain
+bs4
+tavily
+tiktoken
+streamlit
+PyPDF2
+chromadb
+ollama 
