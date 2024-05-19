@@ -61,5 +61,40 @@ Here is a comparative table of ADAPTIVE RAG with other models based on several c
 - Idarati: [Link](https://idarati.ma/)
   
 
+## References to Data Sources
 
+- Data Source 1: [Link](https://example.com)
+- Data Source 2: [Link](https://example.com)
+- Data Source 3: [Link](https://example.com)
+
+## Installation Guide
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Git
+- Python 3.8 or higher
+- Node.js and npm (for the React frontend)
+- pip (Python package installer)
+
+### Cloning the Repository
+
+Clone the Watiqaty repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/moebachar/Watiqaty.git
+cd Watiqaty
+
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+pip install -r requirements.txt
+
+npm install
+
+python server.py
+
+npm start
+
+```
 
