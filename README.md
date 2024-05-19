@@ -4,6 +4,8 @@
 
 Watiqaty is an AI-powered platform designed to assist Moroccans with their administrative paperwork. The platform leverages an advanced chatbot equipped with ADAPTIVE Retrieval-Augmented Generation (RAG) to guide users through the process of obtaining necessary documents and filling out forms.
 
+![LangGraph Nodes Pipeline](https://github.com/moebachar/Watiqaty/blob/main/assets/logo.png?raw=true)
+
 ## Walkthrough of the ADAPTIVE RAG Pipeline
 
 The ADAPTIVE RAG pipeline in the Watiqaty platform integrates complex decision-making processes to handle user queries efficiently. Here’s a detailed step-by-step explanation based on the provided flowchart:
