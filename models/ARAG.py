@@ -464,13 +464,13 @@ app = workflow.compile()
 from pprint import pprint
 
 # Run----------------------------------------------------------------------------------
-QUESTION = input("Enter your question:              ")
-inputs = {"question":  QUESTION}
 
 
 # Final generation---------------------------------------------------------------------
 
-def final_gen(inputs):
+def final_gen(question):
+    inputs = {"question":  question}
+
     return app.invoke(inputs)['generation']
 
 pprint(final_gen(inputs))
