@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Watiqaty Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Watiqaty is an AI-powered platform designed to assist Moroccans with their administrative paperwork. The platform leverages an advanced chatbot equipped with ADAPTIVE Retrieval-Augmented Generation (RAG) to guide users through the process of obtaining necessary documents and filling out forms.
 
-In the project directory, you can run:
+## Walkthrough of the ADAPTIVE RAG Pipeline
 
-### `npm start`
+ADAPTIVE RAG combines the power of retrieval-augmented generation with adaptive mechanisms to provide more accurate and context-relevant responses. Here's how the pipeline works:
+1. **Query Processing**: The user's query is processed to understand the context and intent.
+2. **Document Retrieval**: Relevant documents and past interactions are retrieved based on the query.
+3. **Answer Generation**: The model generates responses using the retrieved information, ensuring high relevance and accuracy.
+4. **Adaptation**: The model adapts to new information and user feedback, continuously improving over time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Benchmarking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here is a comparative table of ADAPTIVE RAG with other models based on several criteria:
 
-### `npm test`
+| Model          | Accuracy | Speed | Scalability | Cost-Efficiency |
+|----------------|:--------:|:-----:|:-----------:|:---------------:|
+| ADAPTIVE RAG   |    ✔️    |   ✔️   |      ✔️     |       ✔️       |
+| Model 2        |    ✔️    |   ❌   |      ✔️     |       ❌       |
+| Model 3        |    ❌    |   ✔️   |      ❌     |       ✔️       |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+![Watiqaty Demo](link-to-your-gif.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## References to Data Sources
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Data Source 1: [Link](https://example.com)
+- Data Source 2: [Link](https://example.com)
+- Data Source 3: [Link](https://example.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For further details and updates, please visit our [official website](https://watiqaty.com).
