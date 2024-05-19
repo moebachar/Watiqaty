@@ -1,6 +1,7 @@
 from flask import Flask, request
 from dotenv import load_dotenv
 from flask_cors import CORS
+from ARAG import final_gen
 import os, requests
 
 app = Flask(__name__)
@@ -10,7 +11,7 @@ load_dotenv()
 
 #fake generation
 def generate_fake_data(message):
-    return "I am a chat bot" + message
+    return final_gen(message)
 
 @app.route('/login', methods=['POST'])
 def login():
