@@ -470,7 +470,7 @@ from pprint import pprint
 
 def final_gen(question):
     inputs = {"question":  question}
-
+    app = workflow.compile()
     return app.invoke(inputs)['generation']
 
 pprint(final_gen(inputs))
