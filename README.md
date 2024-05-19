@@ -50,7 +50,7 @@ Here is a comparative table models based on several criteria:
 
 ## Demo
 
-![Watiqaty Demo](https://github.com/moebachar/Watiqaty/blob/main/assets/First%20Use%20case.mp4?raw=true)
+[Watch Video Demo](https://github.com/moebachar/Watiqaty/blob/main/assets/First%20Use%20case.mp4)
 
 
 ## References to Data Sources
