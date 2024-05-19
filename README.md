@@ -40,7 +40,7 @@ This detailed pipeline ensures that every query is handled with precise logic an
 
 ## Benchmarking
 
-Here is a comparative table of ADAPTIVE RAG with other models based on several criteria:
+Here is a comparative table models based on several criteria:
 
 | Model          | Hallucination | Reasoning | RAG | Multilang |
 |----------------|:--------:|:-----:|:-----------:|:---------------:|
