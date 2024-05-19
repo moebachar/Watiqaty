@@ -6,11 +6,33 @@ Watiqaty is an AI-powered platform designed to assist Moroccans with their admin
 
 ## Walkthrough of the ADAPTIVE RAG Pipeline
 
-ADAPTIVE RAG combines the power of retrieval-augmented generation with adaptive mechanisms to provide more accurate and context-relevant responses. Here's how the pipeline works:
-1. **Query Processing**: The user's query is processed to understand the context and intent.
-2. **Document Retrieval**: Relevant documents and past interactions are retrieved based on the query.
-3. **Answer Generation**: The model generates responses using the retrieved information, ensuring high relevance and accuracy.
-4. **Adaptation**: The model adapts to new information and user feedback, continuously improving over time.
+The ADAPTIVE RAG pipeline in the Watiqaty platform integrates complex decision-making processes to handle user queries efficiently. Here’s a detailed step-by-step explanation based on the provided flowchart:
+
+![LangGraph Nodes Pipeline](https://github.com/moebachar/Watiqaty/blob/main/assets/diag.png?raw=true)
+
+
+1. **Query Reception and Initial Processing**: When a query is received, it is first classified to determine if it is related to the existing index or requires a web search for gathering information.
+   
+2. **Document Retrieval**: Depending on the classification:
+   - If related to the index, relevant documents are retrieved and graded for relevance.
+   - If not related, a web search is initiated to find relevant information.
+
+3. **Content Generation**:
+   - **Check for Relevance**: The relevance of the retrieved information is verified.
+   - **Generation**: Based on the relevance check, the system may generate a preliminary response.
+   - **Check for Hallucination**: Ensures the generated content is accurate and not misleading.
+   - **Question Rewriting**: If needed, the question is rewritten for clarity or to better match the available information.
+
+4. **Answer Formulation**:
+   - **Specific Answer Generation**: If the query is specific, a tailored answer is generated based on the retrieved documents.
+   - **General Needs**: For more general queries, the system generates a broader response.
+   - **Further Analysis**: Some queries may undergo additional analysis for better accuracy.
+
+5. **Delivery through Interfaces**: 
+   - **Flask Backend**: Processes and sends the response back to the user interface.
+   - **React Frontend**: Displays the response dynamically to the user through the web interface.
+
+This detailed pipeline ensures that every query is handled with precise logic and thorough analysis, providing users with reliable and accurate responses.
 
 ## Benchmarking
 
