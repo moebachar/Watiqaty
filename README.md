@@ -29,8 +29,11 @@ Here is a comparative table of ADAPTIVE RAG with other models based on several c
 
 ## References to Data Sources
 
-- Data Source 1: [Link](https://example.com)
-- Data Source 2: [Link](https://example.com)
-- Data Source 3: [Link](https://example.com)
+- Démarches Maroc: [Link](https://www.demarchesmaroc.com)
+- Wecasablanca : [Link](https://www.casablancacity.ma/ar/demarche/41/autorisation-de-dresser-lacte-de-mariage)
+- Royaume du Maroc, Ministère de l'Intérieur: [Link](https://www.passeport.ma/)
+- Idarati: [Link](https://idarati.ma/)
+  
 
-For further details and updates, please visit our [official website](https://watiqaty.com).
+
+
