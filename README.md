@@ -24,7 +24,8 @@ Here is a comparative table of ADAPTIVE RAG with other models based on several c
 
 ## Demo
 
-![Watiqaty Demo](link-to-your-gif.gif)
+![Watiqaty Demo](https://github.com/moebachar/Watiqaty/blob/main/assets/Design%20sans%20titre.gif?raw=true)
+
 
 ## References to Data Sources
 
