@@ -61,12 +61,6 @@ Here is a comparative table models based on several criteria:
 - Idarati: [Link](https://idarati.ma/)
   
 
-## References to Data Sources
-
-- Data Source 1: [Link](https://example.com)
-- Data Source 2: [Link](https://example.com)
-- Data Source 3: [Link](https://example.com)
-
 ## Installation Guide
 
 ### Prerequisites
