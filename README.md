@@ -42,11 +42,11 @@ This detailed pipeline ensures that every query is handled with precise logic an
 
 Here is a comparative table of ADAPTIVE RAG with other models based on several criteria:
 
-| Model          | Accuracy | Speed | Scalability | Cost-Efficiency |
+| Model          | Hallucination | Reasoning | RAG | Multilang |
 |----------------|:--------:|:-----:|:-----------:|:---------------:|
-| ADAPTIVE RAG   |    ✔️    |   ✔️   |      ✔️     |       ✔️       |
-| Model 2        |    ✔️    |   ❌   |      ✔️     |       ❌       |
-| Model 3        |    ❌    |   ✔️   |      ❌     |       ✔️       |
+| Llama3  |    ✔️    |   ✔️   |      ✔️     |       ✔️       |
+| Mistral        |    ❌   |   ✔️   |       ❌     |       ✔️       |
+| Command R        |    ❌    |   ❌   |      ✔️     |       ✔️       |
 
 ## Demo
 
